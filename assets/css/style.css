@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a0a;
+
+    height: 100vh
+}
+
+form {
+    display: flex;
+    padding: 0 48px;
+}
+
+input {
+    appearance: none; /*Necessário para configurar seu estyle*/
+    -webkit-appearance: none; /*Necessário para configurar seu estyle*/
+
+    width: 64px;
+    height: 64px;
+
+    border: 2px solid #333333;
+    border-radius: 8px;
+
+    background: #18181B;
+}
+
+input:checked {
+    border: 2px solid #8d4afa;
+    border-radius: 8px;
+
+    background: #6D28D9;
+}
+
+.habits {
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    margin-top: 58px;
+}
+
+.habit {
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.day {
+    color: white;
+    font-family: "Inter";
+    font-weight: 600;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.day div {
+    margin-bottom: 8px;
+
+    font-family: 'Roboto Mono';
+    font-size: 20px;
+    text-align: center;
+}
+
+.days {
+    display: flex;
+
+    gap: 48px;  
+    margin-left: 32px;
+}
+
+.roll-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 48px;
+}
+
+.logo {
+    width: 150px;
+    height: 84px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: 1px solid #6D28D9;
+    background: transparent;
+
+    font-family: "Inter";
+    font-weight: 600;
+    color: white;
+}
+
+.register img {
+    margin-right: 7px;
+}
+
+
+
