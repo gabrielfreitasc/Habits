@@ -35,6 +35,11 @@ input:checked {
     background: #6D28D9;
 }
 
+#form-habits {
+    padding: 182px 48px 48px;
+    width: fit-content; /*Encaixe o conteudo na largura*/
+}
+
 .habits {
     display: flex;
     flex-direction: column;
@@ -89,6 +94,10 @@ input:checked {
     justify-content: space-between;
 
     padding: 48px;
+
+    position: fixed;
+    width: 100%;
+    background-color: #0a0a0a;
 }
 
 .logo {
@@ -113,11 +122,18 @@ input:checked {
     font-family: "Inter";
     font-weight: 600;
     color: white;
+
+    cursor: pointer;
 }
 
 .register img {
     margin-right: 7px;
+    cursor: pointer;
 }
-
-
+/*Responsividade para mobile*/
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
+}
 
