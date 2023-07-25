@@ -1,0 +1,30 @@
+{
+  "name": "habits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "som.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@prisma/client": "^5.0.0",
+    "@types/web-push": "^3.3.2",
+    "fastify": "^4.19.2",
+    "web-push": "^3.6.3"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.2.4",
+    "dayjs": "^1.11.9",
+    "prisma-erd-generator": "^1.8.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}

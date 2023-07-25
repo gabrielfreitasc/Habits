@@ -1,0 +1,3 @@
+Visualização do banco de dados por meio de um diagrama: "npmjs.com/package/prisma-erd-generator"]
+
+--> Enviar a seed pro db: "npx prisma db seed"
