@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "som.js",
+  "engines": {
+    "node": "8"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "vercel": "vercel dev"
+    "vercel": "vercel dev",
+    "build": "tsup src",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +28,7 @@
     "@types/node": "^20.4.4",
     "dayjs": "^1.11.9",
     "prisma-erd-generator": "^1.8.0",
+    "tsup": "^7.2.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "zod": "^3.21.4"
