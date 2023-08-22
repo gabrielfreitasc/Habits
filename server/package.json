@@ -4,7 +4,8 @@
   "description": "",
   "main": "som.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "vercel": "vercel dev"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "@prisma/client": "^5.0.0",
     "@types/web-push": "^3.3.2",
     "fastify": "^4.19.2",
+    "gh-pages": "^5.0.0",
     "web-push": "^3.6.3"
   },
   "devDependencies": {
