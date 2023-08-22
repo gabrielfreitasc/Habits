@@ -4,12 +4,6 @@ import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import { z } from 'zod'
 
 export async function appRoutes(app: FastifyInstance) {
-    app.get('/', async (req: FastifyRequest, res: FastifyReply) => {
-        res.status(200).send({
-            hello: 'World'
-        })
-    })
-    
     app.post('/habits', async (request) => {
         // title, weekDays
             // Validação se os dados chegaram na request (Biblioteca Zod)
